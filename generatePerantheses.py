@@ -24,5 +24,4 @@ class Solution:
 ans = Solution()
 n = 3
 print(ans.generateParenthesis(n))
-
 """Solution :- ['((()))', '(()())', '(())()', '()(())', '()()()']"""
