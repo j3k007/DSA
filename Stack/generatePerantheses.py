@@ -21,7 +21,7 @@ class Solution:
         backTrack(0, 0)
         return res
     
-ans = Solution()
-n = 3
-print(ans.generateParenthesis(n))
+# ans = Solution()
+# n = 3
+# print(ans.generateParenthesis(n))
 """Solution :- ['((()))', '(()())', '(())()', '()(())', '()()()']"""
