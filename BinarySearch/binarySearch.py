@@ -13,6 +13,6 @@ class Solution:
         return -1
     
 ans = Solution()
-lst = [-1, -2, -3, -4, 0, 1, 2, 3, 4]
-t = 3
-print(ans.search(lst, t))
+target = 2
+nums = [4,5,6,7,0,1,2]
+print(ans.search(nums=nums, target=target))
