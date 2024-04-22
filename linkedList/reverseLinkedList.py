@@ -1,7 +1,7 @@
 class ListNode:
     def __init__(self, val = 0, next = None) -> None:
         self.val = val
-        self.next = next        
+        self.next = next
 
 class Solution:
     def reverseList(self, head):
@@ -16,6 +16,3 @@ class Solution:
         head.next = None
         return newHead
     
-ans = Solution()
-head = [1,2,3,4,5]
-print(ans.reverseList(head=head))
