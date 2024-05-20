@@ -1,3 +1,4 @@
+"""More like a LLD problem."""
 class Node:
     def __init__(self, key, value):
         self.key, self.value = key, value
