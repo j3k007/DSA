@@ -16,7 +16,7 @@ class Solution:
                 matrix[top][l + i] = matrix[bottom - i][l]
 
                 # Move bottom right into bottom left
-                matrix[bottom - i][l] = bottom[bottom][r - i]
+                matrix[bottom - i][l] = matrix[bottom][r - i]
 
                 # Move top right to bottom right
                 matrix[bottom][r - i] = matrix[top + i][r]
@@ -26,3 +26,10 @@ class Solution:
 
             l += 1
             r -= 1
+        
+        return matrix
+
+matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+ans = Solution()
+img = ans.rotate(matrix)
+print(img)
